@@ -1,0 +1,312 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: black;
+        align-items: center;
+        padding: 0 300px;
+    }
+    .name{
+        display:flex;
+        align-items: center;
+        gap:10px ;
+    }
+    .logo-name{
+        color: white;
+        font-weight: 700;
+        font-size:18px ;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        /* padding-right: 40px; */
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-style: inter ;
+    }
+
+
+    .live-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 10px 18px;
+    background-color: gray;   /* red background */
+    color: white;
+
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid red;
+
+    position: absolute;
+
+    bottom: 596px;
+    left: 300px;
+    /* padding: 10px 18px; */
+
+    /* text-decoration: none;
+    cursor: pointer;
+
+    /* box-shadow: 0 6px 15px rgba(255, 59, 59, 0.4);
+    transition: all 0.3s ease; */ 
+}
+
+.w{
+    /* position: absolute;
+    bottom: 590;
+    left: 300px;
+
+    font-size: 14px;
+    font-weight: 600; */
+
+
+
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+
+    position: absolute;
+
+    bottom: 528px;
+    left: 300px;
+
+}
+
+.ww{
+    
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+
+    position: absolute;
+
+    bottom: 510px;
+    left: 300px;
+
+
+}
+.s{
+     border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+
+    position: absolute;
+
+    bottom: 460px;
+    left: 300px;
+
+
+}
+
+.ss{
+     border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+
+    position: absolute;
+
+    bottom: 440px;
+    left: 300px;
+
+
+}
+
+.watch-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 18px;
+    background-color:red;   /* red background */
+    color: white;
+
+    border-radius: 15px;
+    /* font-size: 14px;
+    font-weight: 600; */
+    /* border: 2px solid red; */
+    border: 0px;
+
+    position: absolute;
+
+    bottom: 377px;
+    left: 300px;
+}
+
+.view-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 18px;
+    background-color:gray;   /* red background */
+    color: white;
+
+    border-radius: 15px;
+    /* font-size: 14px;
+    font-weight: 600; */
+    /* border: 2px solid red; */
+    border: 0px;
+
+    position: absolute;
+
+    bottom: 377px;
+    left: 450px;
+
+}
+
+.game{
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+
+    position: absolute;
+
+    bottom: 328px;
+    left: 300px;
+
+
+}
+.point{
+     border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+
+    position: absolute;
+
+    bottom: 302px;
+    left: 310px;
+
+
+}
+.vs{
+     border-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+
+    position: absolute;
+
+    bottom: 313px;
+    left: 370px;
+}
+
+.game-1{
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+
+    position: absolute;
+
+    bottom: 328px;
+    left: 425px;
+
+}
+
+.point-2{
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+
+    position: absolute;
+
+    bottom: 302px;
+    left: 430px;
+}
+.game-2{
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+
+    position: absolute;
+
+    bottom: 328px;
+    left: 500px;
+
+}
+.pointer-3{
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+
+    position: absolute;
+
+    bottom: 302px;
+    left: 495px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 0 20px;  /* Reducing the padding to fit the screen */
+    }
+    
+    .name {
+        gap: 5px;  /* Reducing the gap between logo and text on smaller screens */
+    }
+
+    .logo-name {
+        font-size: 14px;  /* Adjust font size for smaller screens */
+    }
+    
+    .nav a {
+        font-size: 14px;  /* Adjust font size for nav items */
+        gap: 20px;  /* Adjust the spacing between nav items */
+    }
+    
+    .live-btn, .watch-btn, .view-btn {
+        padding: 8px 14px;  /* Adjusting padding to make the buttons fit on mobile screens */
+        font-size: 12px;  /* Adjusting font size for smaller screens */
+        bottom: 50px;  /* Adjust button positions to fit mobile layout */
+        left: 20px;  /* Adjust button position for smaller screens */
+    }
+    
+    .w, .ww, .s, .ss {
+        font-size: 14px;  /* Adjust text size for smaller screens */
+        bottom: 120px;  /* Adjust text positioning */
+        left: 20px;  /* Align text properly on mobile devices */
+    }
+    
+    .game, .game-1 {
+        font-size: 14px;  /* Adjust text size for team names */
+        bottom: 150px;  /* Adjust positioning for team names on mobile */
+    }
+    
+    .vs {
+        font-size: 16px;  /* Adjust size for "VS" text */
+        bottom: 170px;  /* Adjust position on smaller screens */
+        left: 180px;  /* Adjust positioning */
+    }
+    
+    .point, .point-2 {
+        font-size: 14px;  /* Adjust font size for points */
+        bottom: 140px;  /* Adjust points position */
+    }
+}
+
+
+    
