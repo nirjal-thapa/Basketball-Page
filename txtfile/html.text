@@ -1,0 +1,641 @@
+ <div class="container">
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="job-card">
+                    <!-- Content for Box 1 -->
+
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Warrior</div>
+                            <div class="score">140</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Lakers</div>
+                            <div class="score">110</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 3, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Box 2 -->
+            <div class="box">
+                <div class="job-card">
+                    <!-- Content for Box 2 -->
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Thunder</div>
+                            <div class="score">138</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Suns</div>
+                            <div class="score">89</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 6, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="box">
+                <div class="job-card">
+                    <!-- Content for Box 3 -->
+
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <!-- <div></div> -->
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Knicks</div>
+                            <div class="score">117</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Raptors</div>
+                            <div class="score">101</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 8, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                </div>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="job-card">
+                    <!-- Content for Box 4 -->
+
+                </div>
+            
+            <!-- Box 4 -->
+            <div class="box">
+                <div class="job-card">
+                    <!-- Content for Box 4 -->
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Lakers</div>
+                            <div class="score">112</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">76ers</div>
+                            <div class="score">108</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 11, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+
+            <!-- Box 5 -->
+            <div class="box">
+                <div class="job-card">
+                    <!-- Content for Box 5 -->
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn-5">Upcoming</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Cvallers</div>
+                            <div class="score">0</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Homets</div>
+                            <div class="score">0</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Tomorrow</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+
+            <!-- Box 6 -->
+            <div class="box">
+                <div class="job-card">
+                    <!-- Content for Box 6 -->
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Warrior</div>
+                            <div class="score">140</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Lakers</div>
+                            <div class="score">110</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 3, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                </div>
+
+            <!-- Box 7-->
+            <div class="box">
+                <div class="job-card">
+                    <!-- Content for Box 7 -->
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Warrior</div>
+                            <div class="score">140</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Lakers</div>
+                            <div class="score">110</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 3, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+
+            <!-- Box 8-->
+            <div class="box">
+                <div class="job-card">
+                    <!-- Content for Box 8 -->
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Warrior</div>
+                            <div class="score">140</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Lakers</div>
+                            <div class="score">110</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 3, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- 2nd -->
+                <div class="col">
+                    <div class="job-card">
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Thunder</div>
+                            <div class="score">138</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Suns</div>
+                            <div class="score">89</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 6, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 3rd -->
+                <div class="col">
+                    <div class="job-card">
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <!-- <div></div> -->
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Knicks</div>
+                            <div class="score">117</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Raptors</div>
+                            <div class="score">101</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 8, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 4d -->
+                  <div class="col">
+                    <div class="job-card">
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Lakers</div>
+                            <div class="score">112</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">76ers</div>
+                            <div class="score">108</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 11, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 5th -->
+                <div class="col">
+                    <div class="job-card">
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn-5">Upcoming</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Cvallers</div>
+                            <div class="score">0</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Homets</div>
+                            <div class="score">0</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Tomorrow</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 6th -->
+                 <div class="col">
+                    <div class="job-card">
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Warrior</div>
+                            <div class="score">140</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Lakers</div>
+                            <div class="score">110</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 3, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 7th -->
+                 <div class="col">
+                    <div class="job-card">
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Warrior</div>
+                            <div class="score">140</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Lakers</div>
+                            <div class="score">110</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 3, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 8th -->
+                <div class="col">
+                    <div class="job-card">
+                        
+                        <!-- Item One: Final Status -->
+                        <div class="item-one">
+                            <div class="status-btn">Final</div>
+                            <div>hdjh</div>
+                        </div>
+
+                        <!-- Item Two: Warrior Team and Score -->
+                        <div class="item-two">
+                            <div class="team">Warrior</div>
+                            <div class="score">140</div>
+                        </div>
+
+                        <!-- Item Three: Lakers Team and Score -->
+                        <div class="item-three">
+                            <div class="team">Lakers</div>
+                            <div class="score">110</div>
+                        </div>
+
+                        <!-- Item Four: Line Container -->
+                        <div class="item-four">
+                            <div class="line-container"></div>
+                        </div>
+
+                        <!-- Item Five: Date and Location -->
+                        <div class="item-five">
+                            <div>
+                                <i class="fa-regular fa-calendar"></i>
+                                <span class="date-1">Dec 3, 2025</span>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <span class="location-1">TD Garden</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
