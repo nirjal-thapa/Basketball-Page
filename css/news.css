@@ -42,108 +42,72 @@ body {
 
 .feature-section p {
     font-size: 18px; 
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-/* .s-img{
-        width: 300px;
-        height: 500px;
-}
-.s-img img{
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-    
-        margin-top: 80px;
-}
 
-
-.player-info ,box {
-background-color: #444444; 
-width: 300px;
-height: 500px;
+/* Info and Box Alignment */
+.container-1{
 display: flex;
-flex-direction: row;
-
-} */
-/* Image */
-.s-img {
-width: 300px;
-height: 500px;
+flex-direction: column;
 }
 
 
-.s-img img {
+.img {
+width: 300px;
+height: 330px;
+}
+
+
+.img img {
 width: 100%;
 height: 100%;
-border-radius: 10px 0px 0px 10px;
+border-radius: 10px 10px 0px 0px;
 margin-top: 80px;
 }
 
-
-/* Player Info and Box Alignment */
-.container {
-display: flex;
-flex-direction: row;
+/*  */
+.box-f{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
 }
 
 
-.player-info {
-background-color: #0000006b;
-width: 300px;
-height: 500px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-padding: 10px;
-border-radius: 0px 10px 10px 0px;
-margin-top: 80px;
+.news-info{
+    background-color: #0000006b;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 80px;
+    gap: 20px;
 }
+/* .fst-info{
+    gap: 10px;
+    color:#767676; ;
 
-
-/* .box {
-padding: 20px;
-border-radius: 0px;
-display: flex;
-flex-direction: column;
-gap: 10px;
 } */
-
-
-/* Player Name, Team, and Position */
-.player-info h2,
-.player-info p {
-color: white;
-margin: 5px ;
+.rm p{
+    color: red;
 }
-
-
-.player-info h2 {
-font-size: 24px;
-font-weight: bold;
+.des p{
+    color: #767676;
+    font-size: small;
+    
 }
+.upcoming p{
+background-color: red;
+color: #fff;
+font-size: 12px;
+padding: 5px;
+border-radius: 12px;
+text-align: center;
+width: 70px;
+height: 25px;
 
-
-.player-info p {
-font-size: 18px;
-}
-
-
-/* Buttons */
-.view-profile-btn {
-background-color: #FF4C4C;
-color: white;
-border: none;
-padding: 10px;
-width: 100%;
-margin-top: 15px;
-border-radius: 5px;
-cursor: pointer;
-font-size: 16px;
-}
-
-
-.view-profile-btn:hover {
-background-color: #FF2C2C;
 }
