@@ -1,254 +1,375 @@
-    header{
-        padding: 20px 0px;
-        background-color: black;
-    }
-    .logo{
-        width: 100px;
-        height: 100px;
-    }
-    .logo img {
-        width: 100%;
-        height: 100%;
-    }
-    header .container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-    header nav{
-        display: flex;
-        flex-direction: row;
-        gap: 40px;
-        text-decoration: none;
-        font-style:inter ;
-        font-size: 20px;
-        
-    }
+/* Header Styles */
+header {
+    padding: 20px 0px;
+    background-color: black;
+    position: relative;
+    z-index: 100;
+}
 
+.logo {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
 
-/* main */
-/* making bg colour */
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-decoration: none;
+    font-style: inter;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* Main Styles */
 body {
-  background-color: #767676;
+    background-color: #767676;
+}
+
+.feature-section {
+    text-align: center;
+    padding: 0 20px;
 }
 
 .feature-section h2 {
-    font-size: 30px; 
-    margin-bottom: 10px; 
-    margin-top: 80px; 
-    text-align:center; 
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
 }
 
 .feature-section p {
-    font-size: 18px; 
+    font-size: 18px;
     margin-bottom: 40px;
     text-align: center;
+    color: white;
 }
 
-
-.s-img {
-width: 300px;
-height: 500px;
-}
-
-
-.s-img img {
-width: 100%;
-height: 100%;
-border-radius: 10px 0px 0px 10px;
-margin-top: 80px;
-}
-
-
-/* Player Info and Box Alignment */
-.container {
-display: flex;
-flex-direction: row;
-}
-
-/* Stephen Curry */
-.player-info {
-    background-color: #0000006b;
-    width: 300px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border-radius: 0px 10px 10px 0px;
-    margin-top: 80px;
-    gap: 10px;
-}
-
-.player-info h2 {
-font-size: 24px;
-font-weight: bold;
-}
-
-.team {
-font-size: 20px;
-color: rgb(255, 49, 49);
-}
-.pg{
-    font-size: 16px;
-    color: #767676;
-}
-.ppg{
-    background-color: #767676;
-    width: 200px;
-    height: 55px;
-    border-radius: 5px;
-    font-size: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    /* padding: 10px; */
-}
-
-.apg{
-    background-color: #767676;
-    width: 200px;
-    height: 55px;
-    border-radius: 5px;
-    font-size: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    /* padding: 10px; */
-}
-
-.rpg{
-    background-color: #767676;
-    width: 200px;
-    height: 55px;
-    border-radius: 5px;
-    font-size: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    /* padding: 10px; */
-}
-
-
-.view-profile-btn {
-background-color: #FF4C4C;
-color: white;
-border: none;
-padding: 10px;
-width: 200px;
-height: 55px;
-margin-top: 15px;
-border-radius: 5px;
-cursor: pointer;
-font-size: 16px;
-} 
-
-
-.view-profile-btn:hover {
-background-color: #FF2C2C;
-}
-
-
-/* Kobe Bryant */
-
-
-.player-info-2{
-    background-color: #0000006b;
-    width: 300px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border-radius: 0px 10px 10px 0px;
-    margin-top: 80px;
-    gap: 10px;
-}
-
-.player-infoh2-2 {
-font-size: 24px;
-font-weight: bold;
-}
-
-.team-2 {
-font-size: 20px;
-color: rgb(255, 49, 49);
-}
-.pg-2{
-    font-size: 16px;
-    color: #767676;
-}
-.ppg-2{
-    background-color: #767676;
-    width: 200px;
-    height: 55px;
-    border-radius: 5px;
-    font-size: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    /* padding: 10px; */
-}
-
-.apg-2{
-    background-color: #767676;
-    width: 200px;
-    height: 55px;
-    border-radius: 5px;
-    font-size: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    /* padding: 10px; */
-}
-
-.rpg-2{
-    background-color: #767676;
-    width: 200px;
-    height: 55px;
-    border-radius: 5px;
-    font-size: 24px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    /* padding: 10px; */
-}
-
-
-.view-profile-btn-2 {
-background-color: #FF4C4C;
-color: white;
-border: none;
-padding: 10px;
-width: 200px;
-height: 55px;
-margin-top: 15px;
-border-radius: 5px;
-cursor: pointer;
-font-size: 16px;
-} 
-
-
-.view-profile-btn.hover-2 {
-background-color: #FF2C2C;
-}
-
-/* player */
-.player-f{
+/* Player Cards Container */
+.player-f {
     display: flex;
     flex-direction: row;
     gap: 30px;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
+/* Player Card Container */
+.player-f > div {
+    flex: 1 1 500px;
+    max-width: 600px;
+}
+
+.player-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #363636;
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0;
+}
+
+/* Player Image */
+.s-img {
+    width: 40%;
+    min-width: 200px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.s-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Player Info Section */
+.player-info {
+    background-color: #363636;
+    width: 60%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.player-info h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.team {
+    font-size: 18px;
+    color: #FF4C4C;
+    margin: 0;
+    font-weight: 600;
+}
+
+.pg {
+    font-size: 14px;
+    color: #B0B0B0;
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Stat Boxes */
+.stat-box {
+    background-color: #4a4a4a;
+    width: 100%;
+    min-height: 60px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 15px;
+}
+
+.stat-box i {
+    color: #FF4C4C;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.stat-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: white;
+    margin: 0;
+    font-weight: 500;
+}
+
+.stat-value {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    font-weight: 700;
+}
+
+/* View Profile Button */
+.view-profile-btn {
+    background-color: #FF4C4C;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    width: 100%;
+    min-height: 50px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.view-profile-btn:hover {
+    background-color: #FF2C2C;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .player-f {
+        gap: 25px;
+        padding: 0 30px 40px;
+    }
+    
+    .player-f > div {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 15px 0;
+    }
+    
+    header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header nav {
+        gap: 20px;
+        font-size: 16px;
+        justify-content: center;
+    }
+    
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .feature-section h2 {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    
+    .feature-section p {
+        font-size: 16px;
+    }
+    
+    .player-f {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 15px 30px;
+    }
+    
+    .player-card {
+        flex-direction: column;
+    }
+    
+    .s-img {
+        width: 100%;
+        min-width: 100%;
+        height: 300px;
+    }
+    
+    .s-img img {
+        border-radius: 12px 12px 0 0;
+    }
+    
+    .player-info {
+        width: 100%;
+        min-height: auto;
+        padding: 25px;
+        border-radius: 0 0 12px 12px;
+    }
+    
+    .player-info h2 {
+        font-size: 24px;
+    }
+    
+    .team {
+        font-size: 16px;
+    }
+    
+    .stat-box {
+        min-height: 55px;
+        padding: 10px 12px;
+    }
+    
+    .stat-box i {
+        font-size: 18px;
+    }
+    
+    .stat-value {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 0;
+    }
+    
+    header nav {
+        gap: 15px;
+        font-size: 14px;
+    }
+    
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .feature-section h2 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    .feature-section p {
+        font-size: 14px;
+    }
+    
+    .player-f {
+        padding: 0 10px 20px;
+        gap: 15px;
+    }
+    
+    .s-img {
+        height: 250px;
+    }
+    
+    .player-info {
+        padding: 20px;
+        gap: 15px;
+    }
+    
+    .player-info h2 {
+        font-size: 22px;
+    }
+    
+    .team {
+        font-size: 15px;
+    }
+    
+    .pg {
+        font-size: 13px;
+    }
+    
+    .stat-box {
+        min-height: 50px;
+        padding: 10px;
+        gap: 12px;
+    }
+    
+    .stat-box i {
+        font-size: 16px;
+    }
+    
+    .stat-label {
+        font-size: 13px;
+    }
+    
+    .stat-value {
+        font-size: 16px;
+    }
+    
+    .view-profile-btn {
+        font-size: 14px;
+        padding: 10px 15px;
+        min-height: 45px;
+    }
+}

@@ -15,7 +15,7 @@
     <header>
       <div class="container">
         <div class="logo">
-          <img src="./image/Logo.png" alt="" />
+          <a href="./home.html"><img src="./image/Logo.png" alt=""></a>
         </div>
         <nav>
           <a href="./home.html">About</a>
@@ -34,65 +34,55 @@
         </div>
         <p>Have questions or want to connect? Feel free to reach out!</p>
       </section>
-      <!-- box -->
-      <div class="final">
-        <div class="info">
-          <p>Contact with me on social media :</p>
-        </div>
-        <!-- 1st box -->
-        <div class="info-box">
-          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-          <div class="all-info">
-            <div class="info-1">Email</div>
-            <div class="info-2">Basketball30@gmail.com</div>
+      <div class="contact-wrapper">
+        <!-- Contact Information Section -->
+        <section class="contact-info-section">
+          <h3 class="section-title">Contact Information</h3>
+          <div class="info-box">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="all-info">
+              <span class="info-1">Email</span>
+              <span class="info-2">Basketball30@gmail.com</span>
+            </div>
           </div>
-        </div>
-        <!-- 2nd box -->
-        <div class="info-box">
-          <div class="icon"><i class="fa-solid fa-phone"></i></div>
-          <div class="all-info">
-            <div class="info-1">Phone</div>
-            <div class="info-2">+977 9708057295</div>
+          <div class="info-box">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="all-info">
+              <span class="info-1">Phone</span>
+              <span class="info-2">+977 9708057295</span>
+            </div>
           </div>
-        </div>
-        <!-- 3rd box -->
-        <div class="info-box">
-          <div class="icon"><i class="fa-solid fa-location-arrow"></i></div>
-          <div class="all-info">
-            <div class="info-1">Location</div>
-            <div class="info-2">Nepal, Kathmandu</div>
+          <div class="info-box">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="all-info">
+              <span class="info-1">Location</span>
+              <span class="info-2">Nepal, Kathmandu</span>
+            </div>
           </div>
-        </div>
-        <!-- info box -->
-        <div class="form">
-          <p>Contact with me on social media :</p>
-        </div>
+        </section>
 
-        <!-- second section -->
+        <!-- Form Section -->
+        <p class="social-intro">Contact with me on social media:</p>
         <div class="form-container">
-          <div class="pp">
-            <p>Send a Message</p>
-          </div>
-
-          <!-- 1st box -->
-          <div class="group">
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Your Name" />
-          </div>
-          <!-- 2nd box -->
-          <div class="group">
-            <label for="email">Email</label>
-            <input id="email" type="email" placeholder="Your Email@###" />
-          </div>
-          <!-- 3rd box -->
-          <div class="group">
-            <label for="message">Message</label>
-            <textarea id="message" placeholder="Your Message......"></textarea>
-          </div>
-          <!-- submit bottom -->
-          <div>
-            <button type="submit" class="submit-btn">Submit</button>
-          </div>
+          <h3 class="form-title">Send a Message</h3>
+          <form class="contact-form">
+            <div class="group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name" />
+            </div>
+            <div class="group">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="Your Email@###" />
+            </div>
+            <div class="group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Your Message......" rows="5"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Send message</span>
+            </button>
+          </form>
         </div>
       </div>
       <!-- final -->
