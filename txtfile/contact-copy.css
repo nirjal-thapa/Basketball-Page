@@ -1,0 +1,175 @@
+    header{
+        padding: 20px 0px;
+        background-color: black;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .logo img {
+        width: 100%;
+        height: 100%;
+    }
+    header .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        text-decoration: none;
+        font-style:inter ;
+        font-size: 20px;
+        
+    }
+
+
+/* main */
+/* making bg colour */
+body {
+  background-color: #767676;
+}
+
+.feature-section h2 {
+    font-size: 30px; 
+    margin-bottom: 10px; 
+    margin-top: 80px; 
+    text-align:center; 
+}
+
+.feature-section p {
+    font-size: 18px; 
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.line-container {
+    border: none;
+    border-top: 14px solid red;  /* White line with 2px thickness */
+    width: 160px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+
+.final-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.info-box {
+  background-color: #0000006b;
+  width: 858px;
+  height: 114px;
+  display: flex;
+  flex-direction: row; /* Align icon and text in a row */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  gap: 20px; /* Space between icon and text */
+  align-items: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: red; /* Red background for icon */
+  color: white; /* Icon color */
+  border-radius: 50%; /* Circle shape */
+  display: flex;
+  justify-content: center; /* Center the icon horizontally */
+  align-items: center; /* Center the icon vertically */
+}
+
+.info-1 {
+  color: #767676;
+  font-size: 24px;
+}
+
+.info-2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-container {
+    background-color:  #444;
+    color: white;
+    width: 858px;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+}
+
+p{
+    /* text-align: center; */
+    margin-bottom: 20px;
+}
+.box .bs{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color:#2c2c2c;
+    color: white;
+    font-size: 16px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #aaa;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #d32f2f;
+}
+
+

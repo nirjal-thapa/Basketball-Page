@@ -1,0 +1,167 @@
+/* header */
+    header{
+        padding: 20px 0px;
+        background-color: black;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+    .logo img {
+        width: 100%;
+        height: 100%;
+    }
+    header .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        text-decoration: none;
+        font-style:inter ;
+        font-size: 20px;
+        
+    }
+
+/* main */
+/* making bg colour */
+body {
+  background-color: #767676;
+}
+
+/* making box size and colour */
+.job-card{
+    width: 272px;
+    height: 173px;
+    background-color: #0000006b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between; 
+}
+
+
+/* make buttom of trending and upcomming */
+.status-btn {
+background-color:  #767676;
+color: #fff;
+padding: 10px ;
+font-size: 12px;
+font-weight: bold;
+border-radius: 15px;
+text-align: center;
+width: 60px;
+height: 30px;
+display: inline-block;
+
+}
+
+/* putting details on box */
+.item-one{
+    display: flex;
+    flex-direction: row;
+    gap: 137px;
+}
+.item-two .team{
+    font-weight: bold;
+    color: #fff;
+
+}
+
+
+.item-two .score{
+    font-weight: bold;
+    color: #f44336;
+
+}
+.item-two{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+
+.item-three .team{
+    font-weight: bold;
+    color: #fff;
+
+}
+.item-three .score{
+    font-weight: bold;
+    color: #f44336;
+
+}
+.item-three{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+
+}
+/* making lines */
+.line-container {
+    border: none;
+    border-top: 1px solid #fff;  /* White line with 2px thickness */
+    width: 100%;
+}
+.item-five{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    color: #767676;
+}
+
+
+/* making h1 and p */
+.feature-section h1 {
+    font-size: 30px; 
+    margin-bottom: 10px; 
+    margin-top: 80px; 
+    margin-left: 300px; 
+    text-align: left; 
+}
+
+.feature-section p {
+    font-size: 18px; 
+    margin-bottom: 80px;
+    margin-left: 300px;
+}
+
+/* adjusting row coloum gap of box */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.col{
+    height: 173px;
+    width: 25%;
+    padding: 5px;
+    /* border: solid blue 2px; */
+}
+
+
+/* editing box 5 */
+.status-btn-5 {
+background-color: red;
+color: #fff;
+padding: 10px;
+font-size: 12px;
+font-weight: bold;
+border-radius: 15px;
+text-align: center;
+width: 70px;
+height: 33px;
+display: inline-block;
+
+}
+
+
+
+
+
